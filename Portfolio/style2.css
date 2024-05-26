@@ -1,0 +1,274 @@
+
+
+/*==========*/
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #301E67;
+  }
+/*==========*/
+
+/*=====Project heading =====*/ 
+.headingP{
+    position: absolute;
+}
+
+.headingP h1{
+  color: aliceblue ;
+  margin: 19%;
+}
+
+.headingP p{
+  color: aliceblue ;
+  margin-left: 19%;
+}
+/*==========*/
+
+  /*Circle Element */
+
+.circle{
+    position:absolute ;
+    width: 1900px; 
+    height: 1900px;
+    background-color: #03001C; 
+    border-radius: 50%;
+    border-bottom-left-radius: 0%;
+    margin-left: -20%;
+    margin-top: -10%;
+    animation-name: circle;
+    animation-duration: 2s;
+  }
+  /*Circle KeyFrames */
+  
+  @keyframes circle{
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(2px);
+    }
+  }
+  
+
+
+/*================(Pictures)=======================*/
+
+
+
+
+
+
+
+  /*=======================================*/
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    position: relative;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    
+  }
+
+
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
+  
+  /*===========================*/
+
+
+
+  
+  .row {
+    position:absolute;
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    
+    margin-left:190%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 60%;
+    border-radius: 30px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 100px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  /*=====================================*/
+
+
+  /*====navbar========*/
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #home {
+    top: 90px;
+    background-color: #9704aa;
+  }
+  
+  #about {
+    top: 150px;
+    background-color:#914186 ;
+  }
+  
+  #gallery {
+    top: 210px;
+    background-color: #ee61d6;
+  }
+  
+  #skills {
+    top: 270px;
+    background-color: #fa89e1; 
+  }
+  
+  #project {
+    top: 330px;
+    background-color: #e284b3; 
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  /*===============(SKILLS)======================*/
+
+.skills{
+  position: absolute;
+}
+
+.skills h1{
+  color: aliceblue;
+  margin-top: 34%;
+  margin-left: 55%;
+}
+
+.skills ul{
+  color: aliceblue;
+  margin-top: 34%;
+  margin-left: 55%;
+}
+
+/*================================================*/
+
+
+/*================(Gallery)==============*/
+
+.gallery{
+  position: absolute;
+}
+
+.gallery{
+  color: aliceblue;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+.g1{
+  position: absolute;
+}
+
+.g1 img {
+  margin-top: 10px;
+  width: 15%;
+  margin-top: 10%;
+  float: right;
+  padding-right: 50px;
+  padding-left: 30px ;
+}
+
+
+.pic{
+  position: absolute;
+  margin-left: 60%;
+  margin-top:10% ;
+  animation-name: pic;
+  animation-duration: 10s;
+
+}
+
+
+@keyframes pic{
+  0%,10%,100%{
+    transform: scaleY(0%);
+  }
+  25%,100%{
+    transform: scaleY(100%);
+    
+  }
+}
+
+
+/*=======(About Me)========*/
+
+.heading2A {
+  position: absolute;   
+}
+
+.heading2A h1{
+  color: aliceblue ;
+  margin-left: 19%;
+  margin-top: 15%; 
+}
+
+.heading2A p{
+  color:aliceblue;
+  margin-left: 19%;
+  margin-top: 10%; 
+}

@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #301E67;
+  }
+
+
+/*Circle Element */
+
+.circle{
+  position: absolute;
+  width: 1500px; 
+  height: 1500px;
+  background-color: #03001C; 
+  border-radius: 50%;
+  border-bottom-left-radius: 0%;
+  margin-left: -20%;
+  margin-top: -10%;
+  animation-name: circle;
+  animation-duration: 2s;
+}
+/*Circle KeyFrames */
+
+@keyframes circle{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(2px);
+  }
+}
+
+/* Line Elements */
+
+.LD1 img{
+  position: relative;
+  margin-top: 3%;
+  margin-left: 2% ;
+  animation-name: L1;
+  animation-duration: 2s;
+}
+@keyframes L1{
+  0%,10%,100%{
+    transform: scaleY(0%);
+  }
+  25%,100%{
+    transform: scaleY(100%);
+  }
+}
+
+/* Portfolio Elements */
+
+.g2 img{
+  position:absolute;
+  margin-left: 25%;
+  margin-top:10% ;
+  top:0%;
+  bottom: 50%;
+  animation-name: portfolio;
+  animation-duration: 2s;
+}
+
+/* Portfolio KEYFRAMES */
+
+@keyframes portfolio{
+  from{
+    transform: scaleY(0);
+  }
+  to{
+    transform: scaleY(50px) ;
+  }
+}
+
+/* Frame1 Element*/ 
+.F1 {
+  position: absolute;
+  width:100%; 
+  height:92%;
+  background-color: #6b4aa1; 
+  margin-top: 2%;
+  animation-name: F1;
+  animation-duration: 2s;
+}
+
+/* Frame1 KEYFRAMES*/ /*edit F1*/
+
+@keyframes F1{
+  from{
+    transform:translateY(100px) ;
+  }
+  to{
+    transform:translateY(0px);
+  }
+}
+
+/* Box1 Element*/ /*Drark purple*/
+
+.B1{
+  position: absolute;
+  width: 13%; 
+  height: 75%;
+  background-color: #3a1870; /*#c6d4e6 or B6EADA*/
+  margin-top: 6%;
+  margin-left: 2%;
+  animation-name: B1 ;
+  animation-duration: 10s ;
+}
+
+/* Box1 KEYFRAMES*/
+
+@keyframes B1 {
+  0%,10%,100%{
+    height:0%;
+  }
+  25%,100%{
+    height: 75%;
+  }
+}
+
+/* Line2 Element*/
+
+.LD2 img{
+  position: absolute;
+  margin-top: 6%;
+  margin-left:6.7%;
+  animation-name: L2;
+  animation-duration: 11s;
+}
+
+/* Line2 KEYFRAME*/
+
+@keyframes L2{
+  0%,10%,100%{
+    height:0%;
+    
+  }
+  25%,100%{
+    height: 84.6%;
+    width: 90%;
+  }
+}
+/* Colored Line l1 Element*/
+
+.l1{
+  position: absolute;
+  width: 17.5%; 
+  height: 10px;
+  background-color: #9266d3;
+  margin-top: 50.2%;
+  margin-left: 41%;
+  animation-name: l1;
+  animation-duration: 13s;
+}
+
+/* Colored Line l1 KEYFRAME*/
+
+@keyframes l1{
+  0%,10%,100%{
+    width:0%;
+  }
+  25%,45%,100%{
+    width: 17.5%;
+    height: 10px;
+  }
+}
+
+/* Box2 Element*/ /*white opacity 50% purple*/
+
+.B2{
+  position: absolute;
+  width: 79%; 
+  height: 20%;
+  background-color: #c0ccff; /*#c6d4e6 or B6EADA*/
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  margin-top: 37.4%;
+  margin-left: 15%;
+  opacity: 50%;
+  animation-name: B2;
+  animation-duration:1s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+
+/* Box2 KEYFRAMES*/
+
+@keyframes B2{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 79%; 
+    height: 20%;
+  }
+}
+
+
+
+/*==============================================================*/
+
+/*option box1 */
+
+
+.tablink{ 
+  position: absolute;
+  margin-left: 19%;
+  margin-top: 38.8%;
+  font-size: 50px;  
+  cursor: pointer;
+  padding: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8bfea;
+  text-align: center; 
+  color: #36003b;
+  text-decoration: none;
+  animation-name: p ;
+  animation-duration: 24s ;
+} 
+
+.tablink2{
+  position: absolute;
+  margin-left:33%;
+  margin-top: 38.8%;
+  font-size: 50px;  
+  cursor: pointer;
+  padding: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f08fd7;
+  text-align: center;
+  text-decoration: none;
+  color: #36003b;
+  animation-name: p ;
+  animation-duration: 26s ;
+}
+
+.tablink3{
+  position: absolute;
+  margin-left: 47%;
+  margin-top: 38.8%;
+  font-size: 50px;  
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #d7b8e4;
+  text-align: center;
+  text-decoration: none;
+  padding: 60px;
+  color: #36003b;
+  animation-name: p ;
+  animation-duration: 28s ;
+}
+
+
+.tablink4{
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 38.8%;  
+  font-size: 50px;  
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #b67df8;
+  text-align: center;
+  text-decoration: none;
+  padding: 60px;
+  color: #36003b;
+  animation-name: p ;
+  animation-duration: 30s ;
+  
+}
+
+.tablink5{
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 38.8%;  
+  font-size: 50px;  
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #e9c5d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 60px;
+  color: #36003b;
+  animation-name: p ;
+  animation-duration: 32s ;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #ecb0e9;
+}
+
+.tablink2:hover {
+  background-color: #ecb0e9;
+}
+
+.tablink3:hover {
+  background-color: #ecb0e9;
+}
+.tablink4:hover {
+  background-color: #ecb0e9;
+}
+
+
+@keyframes p{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
+@keyframes p{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
+@keyframes p{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
+
+@keyframes p{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
+@keyframes p{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
+
+
+
+
+
+
+
+/*===========================================*/
+
+
+/*Socials Elements*/
+
+/* Heading 3  Content Element*/
+
+h3{
+  position: absolute;
+  color: aliceblue;
+  margin-top: 40%;
+  margin-left: 20%;
+  animation-name: heading3;
+  animation-duration:13s;
+}
+
+/* heading 3  Content KEYFRAMES*/
+
+@keyframes heading3{
+  0%,25%{
+    transform: scaleX(0%);
+  }
+
+  40%,100%{
+    transform: scaleX(100%);
+  }
+}
+
+
+
+
+/*Socials img Elements*/ /*socials*/
+.socials img{
+  position: absolute;
+  margin-top: 15% ;
+  margin-left: 7.6%;
+  animation-name: socials;
+  animation-duration:11s;
+}
+
+@keyframes socials{
+  0%,25%{
+    height: 0px;
+    width: 1.5%;
+  }
+  45%,100%{
+    height: 40.8%;
+    width: 1.5%;
+  }
+}
+/*Socials PORTFOLIO Elements*/ /*P1*/
+.P1{
+  position: absolute;
+  color: aliceblue;
+  transform: rotate(-90deg);
+  margin-top: 10% ;
+  margin-left: 5.7%;
+  animation-name: P1;
+  animation-duration: 11s;
+}
+/*Socials PORTFOLIO keyframes*/ /*P1*/
+@keyframes P1{
+  0%,10%{
+    transform: scaleX(0);
+  }
+  15%,25%{
+    transform: scaleX(100%);
+  }
+  50%,100%{
+    transform:rotate(-90deg);
+
+  }
+}
+
+/*Socials PORTFOLIO Elements*/ /*P2*/
+
+.P2{
+  position: absolute;
+  color: aliceblue;
+  transform: rotate(-90deg);
+  margin-top: 42% ;
+  margin-left: 5.7%;
+  animation-name: P2;
+  animation-duration: 17s;
+}
+
+/*Socials PORTFOLIO keyframes*/ /*P2*/
+@keyframes P2{
+  0%,10%{
+    transform: scaleX(0);
+  }
+  15%,25%{
+    transform: scaleX(100%);
+  }
+  35%,100%{
+    transform:rotate(-90deg);
+
+  }
+}
+
+
+
+/*==pictuer element==*/
+.pic{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 7%;
+  animation-name: pic1 ;
+  animation-duration: 20s ;
+}
+
+/*==pictuer  KEYFRAMES ==*/
+
+@keyframes pic1{
+  0%,10%,100%{
+    transform: scaleY(0%);
+  }
+  25%,100%{
+    transform: scaleY(100%);
+    
+  }
+}
+
+.SQ1{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  animation-name: in ;
+  animation-duration: 20s;
+}
+
+@keyframes in{
+  0%,10%,100%{
+    transform: scaleX(0%);
+  }
+  25%,100%{
+    transform: scaleX(100%);
+    
+  }
+}
+
